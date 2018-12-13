@@ -1,0 +1,38 @@
+{
+  "name": "notifications-api",
+  "version": "1.0.0",
+  "description": "Eric Kirima's microservice for notifications",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=4200 node server.js",
+    "dev": "NODE_ENV=test PORT=4205 nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngEryx/onesignal-nodejs-notifications-service.git"
+  },
+  "keywords": [
+    "OneSignal",
+    "Notifications",
+    "NodeJS",
+    "node",
+    "npm"
+  ],
+  "author": "Eric Kirima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EngEryx/onesignal-nodejs-notifications-service/issues"
+  },
+  "homepage": "https://github.com/EngEryx/onesignal-nodejs-notifications-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.3.2",
+    "helmet": "^3.15.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
